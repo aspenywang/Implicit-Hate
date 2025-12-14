@@ -1,4 +1,4 @@
-# implicit-hate-project
+# Implicit Hate
 
 This repository contains the code and data used for a CMPU366 course project on implicit hate speech classification and reasoning. The goal is to evaluate how different models handle high-level hate categories (Stage 1) and whether they generalize to context-dependent forms such as irony (Stage 2).
 
@@ -124,6 +124,7 @@ import pandas as pd
 df = pd.read_csv("implicit-hate-corpus/implicit_hate_v1_stg1_posts.tsv", delimiter="\t")
 ```
 -----------------------------
+
 
 
 
