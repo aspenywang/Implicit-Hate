@@ -40,7 +40,7 @@ This folder includes:
     * `implicit_class`: {`white_grievance`, `incitement`, `inferiority`, `irony`, `stereotypical`, `threatening`, `other`}  
     * `extra_implicit_class`: same set as above or **None**  
     Only entries labeled `irony` are used for the diagnostic subset.
-* `fine-tuned-models/`
+* `fine-tuned_models/`
   This directory contains the transformer models we fine-tuned:
   * Subdirectories for each model architecture (e.g., output_bert-base-uncased, output_roberta-base)
   * Saved model checkpoints (.safetensors or pytorch_model.bin)
@@ -124,6 +124,7 @@ import pandas as pd
 df = pd.read_csv("implicit-hate-corpus/implicit_hate_v1_stg1_posts.tsv", delimiter="\t")
 ```
 -----------------------------
+
 
 
 
