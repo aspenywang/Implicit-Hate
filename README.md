@@ -54,7 +54,7 @@ This folder includes:
 Start by cloning this repository to your local machine and navigating into the project directory:
 
 ```bash
-git clone https://github.com/aspenywang/implicit_hate_project
+git clone https://github.com/aspenywang/Implicit-Hate
 cd implicit-hate-project. 
 ````
 
@@ -124,6 +124,7 @@ import pandas as pd
 df = pd.read_csv("implicit-hate-corpus/implicit_hate_v1_stg1_posts.tsv", delimiter="\t")
 ```
 -----------------------------
+
 
 
 
